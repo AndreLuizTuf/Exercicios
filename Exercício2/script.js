@@ -14,7 +14,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   
   
   // Exercicio 2 - Leitura de 15 alturas e cálculo da maior e menor altura
-  function exercicio2() {
+  function exercício2() {
     const alturas = [1.72, 1.85, 1.60, 1.75, 1.90, 1.65, 1.70, 1.80, 1.78, 1.73, 1.82, 1.60, 1.66, 1.79, 1.81];
     let menorAltura = Math.min(...alturas);
     let maiorAltura = Math.max(...alturas);
@@ -22,7 +22,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 3 - Média, quantidade de valores positivos e negativos, e percentuais
-  function exercicio3() {
+  function exercício3() {
     const valores = [5, -3, 9, 0, -7, 6, -2, 8];
     let soma = 0, positivos = 0, negativos = 0;
   
@@ -44,7 +44,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 4 - Contagem de números em intervalos
-  function exercicio4() {
+  function exercício4() {
     const numeros = [12, 37, 64, 82, 19, 53, -1];
     let intervalo1 = 0, intervalo2 = 0, intervalo3 = 0, intervalo4 = 0;
   
@@ -61,7 +61,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 5 - Cálculo da quantidade de pares, ímpares, média dos pares e média geral
-  function exercicio5() {
+  function exercício5() {
     const numeros = [10, 15, 20, 25, 0];
     let pares = 0, impares = 0, somaPares = 0, somaTotal = 0;
   
@@ -84,7 +84,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 6 - Números ímpares entre 100 e 200
-  function exercicio6() {
+  function exercício6() {
     let resultado = '';
     for (let i = 101; i < 200; i += 2) {
       resultado += i + '\n';
@@ -93,7 +93,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 7 - Tabuada de N
-  function exercicio7() {
+  function exercício7() {
     const N = 7;
     let resultado = '';
     for (let i = 0; i <= 10; i++) {
@@ -103,7 +103,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 8 - Sequência em P.A. com 10 valores
-  function exercicio8() {
+  function exercício8() {
     const A = 2;
     const R = 3;
     let resultado = '';
@@ -114,7 +114,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 9 - Sequência em P.G. com 10 valores
-  function exercicio9() {
+  function exercício9() {
     const A = 2;
     const R = 3;
     let resultado = '';
@@ -125,7 +125,7 @@ document.getElementById('resultado1').textContent = `A soma é: ${result}`;
   }
   
   // Exercicio 10 - Cálculo do fatorial e a sequência
-  function exercicio10() {
+  function exercício10() {
     const A = 5;
     let fatorial = 1;
     let sequencia = '';

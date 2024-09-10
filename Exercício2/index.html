@@ -1,72 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercícios de Algoritmos</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios de Algoritmos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h2>Exercícios de Algoritmos - Resultados</h2>
+      </header>
 
-  <div class="container">
-    <h2>Exercícios de Algoritmos - Resultados</h2>
+      <!-- Resultados serão exibidos aqui -->
+      <section>
+        <h1>Soma de Números Ímpares Múltiplos de Três</h1>
+        <p id="resultado1"></p>
+        <button onclick="exercício1()">Executar Exercício 1</button>
+      </section>
+      <section>
+        <h1>
+          Desenvolver um algoritmo que leia a altura de 15 pessoas. Este
+          programa deverá calcular e mostrar: a. A menor altura do grupo;<br />
+          b. A maior altura do grupo; <br />
+        </h1>
+        <div id="resultado2" class="output"></div>
+        <button onclick="exercício2()">Executar Exercício 2</button>
+      </section>
+      <section>
+        <h1>
+          Desenvolver um algoritmo que leia um número não determinado de valores
+          e calcule e escreva a média aritmética dos valores lidos, a quantidade
+          de valores positivos, a quantidade de valores negativos e o percentual
+          de valores negativos e positivos.
+        </h1>
+        <div id="resultado3" class="output"></div>
+        <button onclick="exercício3()">Executar Exercício 3</button>
+      </section>
+      <section>
+        <h1>
+          Escrever um algoritmo que leia uma quantidade desconhecida de números
+          e conte quantos deles estão nos seguintes intervalos: [0-25], [26-50],
+          [51-75] e [76-100]. A entrada de dados deve terminar quando for lido
+          um número negativo.
+        </h1>
+        <div id="resultado4" class="output"></div>
+        <button onclick="exercício4()">Executar Exercício 4</button>
+      </section>
+      <section>
+        <h1>
+          Faça um algoritmo estruturado que leia uma quantidade não determinada
+          de números positivos. Calcule a quantidade de números pares e ímpares,
+          a média de valores pares e a média geral dos números lidos. O número
+          que encerrará a leitura será zero.
+        </h1>
+        <div id="resultado5" class="output"></div>
+        <button onclick="exercício5()">Executar Exercício 5</button>
+      </section>
+      <section>
+        <h1>
+          Escrever um algoritmo que gera e escreve os números ímpares entre 100
+          e 200.
+        </h1>
+        <div id="resultado6" class="output"></div>
+        <button onclick="exercício6()">Executar Exercício 6</button>
+      </section>
+      <section>
+        <h1>
+          Escrever um algoritmo que leia um valor para uma variável N de 1 a 10
+          e calcule a tabuada de N. Mostre a tabuada na forma: 0 x N = 0, 1 x N
+          = 1N, 2 x N = 2N, ..., 10 x N = 10N.
+        </h1>
+        <div id="resultado7" class="output"></div>
+        <button onclick="exercício7()">Executar Exercício 7</button>
+      </section>
+      <section>
+        <h1>
+          Escreva um algoritmo que leia um valor inicial A e uma razão R e
+          imprima uma seqüência em P.A. contendo 10 valores.
+        </h1>
+        <div id="resultado8" class="output"></div>
+        <button onclick="exercício8()">Executar Exercício 8</button>
+      </section>
+      <section>
+        <h1>
+          Escreva um algoritmo que leia um valor inicial A e uma razão R e
+          imprima uma seqüência em P.G. contendo 10 valores.
+        </h1>
+        <div id="resultado9" class="output"></div>
+        <button onclick="exercício9()">Executar Exercício 9</button>
+      </section>
+      <section>
+        <h1>
+          Escreva um algoritmo que leia um valor inicial A e imprima a seqüência
+          de valores do cálculo de A! e o seu resultado. Ex: 5! = 5 X 4 X 3 X 2
+          X 1 = 120
+        </h1>
+        <div id="resultado10" class="output"></div>
+        <button onclick="exercício10()">Executar Exercício 10</button>
+      </section>
+    </main>
 
-    <!-- Resultados serão exibidos aqui -->
-    <h1>Soma de Números Ímpares Múltiplos de Três</h1>
-    <p id="resultado1"></p>
-    <button onclick="exercício1()">Executar Exercicio 1</button>
-    
-    <h1>Desenvolver um algoritmo que leia a altura de 15 pessoas. Este programa deverá calcular e
-        mostrar:
-        a. A menor altura do grupo;<br />
-        b. A maior altura do grupo; <br /> </h1>
-    <div id="resultado2" class="output"></div>
-    <button onclick="exercicio2()">Executar Exercicio 2</button>
-    
-    <h1>Desenvolver um algoritmo que leia um número não determinado de valores e calcule e escreva a
-      média aritmética dos valores lidos, a quantidade de valores positivos, a quantidade de valores
-      negativos e o percentual de valores negativos e positivos. </h1>
-    <div id="resultado3" class="output"></div>
-    <button onclick="exercicio3()">Executar Exercicio 3</button>
-     
-    <h1>Escrever um algoritmo que leia uma quantidade desconhecida de números e conte quantos deles
-      estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100]. A entrada de dados deve
-      terminar quando for lido um número negativo. </h1>
-    <div id="resultado4" class="output"></div>
-    <button onclick="exercicio4()">Executar Exercicio 4</button>
-    
-    <h1> Faça um algoritmo estruturado que leia uma quantidade não determinada de números positivos.
-      Calcule a quantidade de números pares e ímpares, a média de valores pares e a média geral dos
-      números lidos. O número que encerrará a leitura será zero. </h1>
-    <div id="resultado5" class="output"></div>
-    <button onclick="exercicio5()">Executar Exercicio 5</button>
-     
-    <h1>Escrever um algoritmo que gera e escreve os números ímpares entre 100 e 200. </h1>
-    <div id="resultado6" class="output"></div>
-    <button onclick="exercicio6()">Executar Exercicio 6</button>
-    
-    <h1>Escrever um algoritmo que leia um valor para uma variável N de 1 a 10 e calcule a tabuada de
-      N. Mostre a tabuada na forma: 0 x N = 0, 1 x N = 1N, 2 x N = 2N, ..., 10 x N = 10N.</h1>
-    <div id="resultado7" class="output"></div>
-    <button onclick="exercicio7()">Executar Exercicio 7</button>
-    
-    <h1> Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma seqüência em
-      P.A. contendo 10 valores. </h1>
-    <div id="resultado8" class="output"></div>
-    <button onclick="exercicio8()">Executar Exercicio 8</button>
-    
-    <h1>Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma seqüência em
-      P.G. contendo 10 valores. 
-      </h1>
-    <div id="resultado9" class="output"></div>
-    <button onclick="exercicio9()">Executar Exercicio 9</button>
-    
-    <h1>Escreva um algoritmo que leia um valor inicial A e imprima a seqüência de valores do cálculo de
-      A! e o seu resultado. Ex: 5! = 5 X 4 X 3 X 2 X 1 = 120 </h1>
-    <div id="resultado10" class="output"></div>
-    <button onclick="exercicio10()">Executar Exercicio 10</button>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
